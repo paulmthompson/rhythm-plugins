@@ -105,10 +105,14 @@ public:
     };
 
     enum BoardPort {
-        PortA,
+        PortA = 0,
         PortB,
         PortC,
-        PortD
+        PortD,
+        PortE,
+        PortF,
+        PortG,
+        PortH
     };
 
     void uploadCommandList(const std::vector<int> &commandList, AuxCmdSlot auxCommandSlot, int bank);
